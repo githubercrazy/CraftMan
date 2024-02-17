@@ -96,28 +96,26 @@
       <div class="navigation-menu">
         <ul class="navigation-item">
           <li class="nav-item--active">მთავარი</li>
-          <li class="nav-item nav-about-content">
-            <p class="nav-item-separator nav-item-separator--about"></p>
+          <!-- home  -->
+          <li class="nav-item">
+            <p class="nav-item-separator"></p>
             ჩვენს შესახებ
           </li>
           <li class="nav-item">
             <input type="checkbox" id="toggle" class="toggle-checkbox" />
             <label for="toggle" class="nav-item-content">
               <p class="nav-item-separator"></p>
-              სერვისები<img
-                src="./img/Symbol.png"
-                class="nav-item-img"
-                alt=""
-              />
+              სერვისები <!-- services  -->
+              <img src="./img/Symbol.png" class="nav-item-img" alt="" />
             </label>
           </li>
           <li class="nav-item">
             <p class="nav-item-separator"></p>
-            პროფესიები
+            პროფესიები <!-- Professions  -->
           </li>
           <li class="nav-item">
             <p class="nav-item-separator"></p>
-            ხელოსნები
+            ხელოსნები <!-- craftsmen  -->
           </li>
         </ul>
       </div>
@@ -133,7 +131,7 @@
           <img class="basket-reminder" src="./img/bxs_basket.svg" alt="" />
         </div>
       </div>
-      <div class="registration">
+      <div class="registration-container">
         <div class="registration-content">
           <div class="registration-marker">
             <img class="registration-icon" src="./img/mdi_account.svg" alt="" />
@@ -154,8 +152,12 @@
           <div class="circle"></div>
           <div class="circle"></div>
         </div>
-        <img class="home-page-img" src="./img/home-background.png" alt="" />
-        <img src="./img/handmyman.png" class="home-page-img-overlay" alt="" />
+        <img
+          class="home-page-background"
+          src="./img/home-background.png"
+          alt=""
+        />
+        <img src="./img/handmyman.png" class="home-page-img" alt="" />
       </div>
       <div class="home-text">
         <p class="home-text1">
@@ -382,12 +384,6 @@
         </div>
       </div>
     </section>
-    <script>
-      // const navItem = document.getElementById("navItem");
-
-      // navItem.addEventListener("click", function () {
-      //   this.classList.toggle("active");
-      // });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
