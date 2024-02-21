@@ -652,7 +652,7 @@ word-wrap: break-word
 .service-item1 {
   background: linear-gradient(0deg, #92b388, #92b388);
 }
-.service-item-text-main1 {
+.service-item-text-main-active {
   color: rgba(255, 255, 255, 1);
   width: 290.99px;
   height: 22px;
@@ -663,7 +663,7 @@ word-wrap: break-word
   letter-spacing: 0em;
   text-align: left;
 }
-.service-item-text-secondary1 {
+.service-item-text-secondary-active {
   color: rgba(255, 255, 255, 1);
   width: 290.33px;
   height: 93.94px;
@@ -752,8 +752,8 @@ word-wrap: break-word
   box-sizing: border-box; /* Include padding in the total width */
 }
 
-.whyus-button1,
-.whyus-button2 {
+
+.whyus-button {
   background-color: transparent;
   background: rgba(88, 87, 87, 1);
   border: none;
@@ -772,8 +772,8 @@ word-wrap: break-word
   border-radius: 50%;
 }
 
-.arrow-container1,
-.arrow-container2 {
+
+.arrow-container {
   width: 20px;
   height: 20px;
   font-family: Inter;
