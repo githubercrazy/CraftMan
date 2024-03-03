@@ -1,0 +1,66 @@
+:root {
+  --main-background-color: #fafafa;
+  --main-text-color: #373535;
+  --secondary-text-color: #646464;
+  --accent-color: #c6542d;
+  --contact-item-outline: 1px rgba(224, 224, 224, 0.5) solid;
+  --nav-item-color: #f3f3f3;
+  --nav-text-color: #f3f3f3;
+  --nav-item-hover-color: #fae7bf;
+  --nav-bar-shadow: 0px 4px 27.7px rgb(198, 84, 45, 0.8);
+  --nav-item--active-color: #fae7bf;
+  --nav-item-seperator-bgcolor: rgba(255, 255, 255, 0.15);
+  --location-border: 1px #ececec solid;
+  --location-text-color: #bbcc99;
+  --registration-border-color: 1px #ececec solid;
+  --registration-text-color: #f9f1d9;
+  --home-color: #fafafa;
+  --home-page-bg: linear-gradient(0deg, #d9d9d9 0%, #d9d9d9 100%);
+  --home-text-color: rgba(255, 255, 255, 0.85);
+  --home-text1-color: rgba(255, 255, 255, 0.85);
+  --home-text2-color: rgba(255, 255, 255, 0.74);
+  --home-circle-color: #efefef;
+  --home-buttons-color: #efefef;
+  --searchfield-container-bordertop-color: 1px solid #4d4d4d;
+  --searchfield-container-shadow: 0px 4px 77.80000305175781px 0px #000000db;
+  --searchfield-input-color: rgba(153, 153, 153, 0.25);
+  --searchfield-input-bordertop-color: 1px solid rgba(153, 153, 153, 0.25);
+  --searchfield-input-bordercolor: 1px solid rgba(153, 153, 153, 0.25);
+  --searchfield-text-color: rgba(249, 241, 217, 1);
+  --searchfield-icon-color: #c6542d;
+  --searchbutton-background-color: linear-gradient(
+      0deg,
+      rgba(101, 100, 100, 0.3),
+      rgba(101, 100, 100, 0.3)
+    ),
+    linear-gradient(0deg, rgba(161, 173, 179, 0.15), rgba(161, 173, 179, 0.15));
+  --searchbutton-border-color: 1px solid #a1adb326;
+  --searchbutton-box-shadow: 0px 4px 4px 0px #0000000d;
+  --searchbutton-text-color: rgba(143, 149, 142, 1);
+  --searchbutton-viewmore-color: #ffffff;
+  --service-text-color: #383838;
+  --service-subtext-color: #37383f;
+  --service-item-background-color: #f3f0f08e;
+  --service-item-border-color: 1px solid #fbf7f7;
+  --service-item-boxshadow: 0px 4px 4px 0px #00000003 inset;
+  --service-item--active: linear-gradient(0deg, #92b388, #92b388);
+  --service-item-text-main-active: rgba(255, 255, 255, 1);
+  --service-item-text-secondary-active: rgba(255, 255, 255, 1);
+  --service-item-text-main-color: rgba(102, 108, 137, 1);
+  --service-item-text-secondary: rgba(102, 108, 137, 1);
+  --service-button-border-color: 1px solid rgba(198, 84, 45, 1);
+  --service-button-background: rgba(198, 84, 45, 1);
+  --service-button-text-color: rgba(255, 255, 255, 1);
+  --whyus-button-background: rgba(88, 87, 87, 1);
+  --whyus-button-color: white;
+  --whyus-subtext-color: #37383f;
+  --whyus-about-text: #37393f;
+  --badge-background: linear-gradient(0deg, #f6f4f4, #f6f4f4),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  --badge-border: 1px solid rgba(227, 227, 227, 1);
+  --whyus-badgetext-color: rgba(55, 57, 63, 1);
+  --badge-secondary-border: 1px solid rgba(227, 227, 227, 1);
+  --badge-secondary-background: linear-gradient(0deg, #f6f4f4, #f6f4f4),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  --whyus-secondary-color: rgba(55, 57, 63, 1);
+}
