@@ -2,14 +2,14 @@ body {
   margin: 0;
   padding: 0;
   width: var(-css-width-full);
-  height: 100%;
+  height: var(--css-height-full);
   position: relative;
   background: var(--main-background-color);
 }
 
 .header {
   width: var(-css-width-full);
-  height: 100%;
+  height: var(--css-height-full);
   display: var(--css-display-flex);
   align-items: center;
   background: var(--main-background-color);
@@ -152,7 +152,7 @@ word-wrap: break-word
 }
 .location-content {
   width: var(-css-width-full);
-  height: 100%;
+  height: var(--css-height-full);
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
@@ -276,7 +276,7 @@ word-wrap: break-word
 } */
 .user-actions-container {
   width: var(-css-width-full);
-  height: 100%;
+  height: var(--css-height-full);
   justify-content: flex-start;
   align-items: center;
   gap: 29px;
@@ -326,7 +326,7 @@ word-wrap: break-word
 }
 .registration-content {
   width: var(-css-width-full);
-  height: 100%;
+  height: var(--css-height-full);
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
@@ -363,7 +363,7 @@ word-wrap: break-word
 
 .home-page-background {
   width: 100%;
-  height: 100%;
+  height: var(--css-height-full);
   background: var(--home-page-bg);
 }
 
