@@ -1,16 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: var(-css-width-full);
   height: 100%;
   position: relative;
   background: var(--main-background-color);
 }
 
 .header {
-  width: 100%;
+  width: var(-css-width-full);
   height: 100%;
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   background: var(--main-background-color);
   color: var(--nav-text-color);
@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   margin-right: 83px;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .contact-info {
-  display: flex;
+  display: var(--css-display-flex);
   margin-left: 83px;
   align-items: center;
   gap: 70px;
@@ -51,7 +51,7 @@ body {
 }
 
 .contact-item {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   margin-left: 8rem;
   gap: 5px;
@@ -127,9 +127,9 @@ word-wrap: break-word
 }
 
 .navigation-bar {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
-  width: 100%;
+  width: var(-css-width-full);
   height: 80px;
   background: #2c2c2c;
   box-shadow: var(--nav-bar-shadow);
@@ -151,7 +151,7 @@ word-wrap: break-word
   margin-left: 41px;
 }
 .location-content {
-  width: 100%;
+  width: var(-css-width-full);
   height: 100%;
   justify-content: flex-start;
   align-items: center;
@@ -189,7 +189,7 @@ word-wrap: break-word
 .navigation-item {
   margin-left: 18rem;
   list-style: none;
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   gap: 16px;
 }
@@ -217,6 +217,7 @@ word-wrap: break-word
   position: relative;
   text-decoration: none;
   white-space: nowrap;
+  margin-right: 10px;
   color: var(--nav-item--active-color);
 }
 
@@ -225,7 +226,7 @@ word-wrap: break-word
   z-index: 1;
   color: var(--nav-item-color);
   margin-right: 16px;
-  display: flex;
+  display: var(--css-display-flex);
   flex-direction: column;
   cursor: pointer;
 }
@@ -254,7 +255,7 @@ word-wrap: break-word
 }
 
 .nav-item-content {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
 }
 .nav-item-img {
@@ -274,7 +275,7 @@ word-wrap: break-word
   transform: rotate(180deg);
 } */
 .user-actions-container {
-  width: 100%;
+  width: var(-css-width-full);
   height: 100%;
   justify-content: flex-start;
   align-items: center;
@@ -324,7 +325,7 @@ word-wrap: break-word
   margin-right: 180px;
 }
 .registration-content {
-  width: 100%;
+  width: var(-css-width-full);
   height: 100%;
   justify-content: flex-start;
   align-items: center;
@@ -348,14 +349,14 @@ word-wrap: break-word
   margin-right: 30px;
 }
 .home {
-  width: 100%;
+  width: var(-css-width-full);
   height: 572px;
   position: relative;
   background: var(--home-color);
 }
 .home-page {
   position: relative;
-  display: flex;
+  display: var(--css-display-flex);
   flex-direction: column;
   align-items: center;
 }
@@ -416,7 +417,7 @@ word-wrap: break-word
   bottom: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
+  display: var(--css-display-flex);
   justify-content: space-between; /* Use space-between to create a gap between buttons */
   align-items: center;
   width: calc(
@@ -426,7 +427,7 @@ word-wrap: break-word
 
 .menu-button-left,
 .menu-button-right {
-  display: flex;
+  display: var(--css-display-flex);
   justify-content: center;
   align-items: center;
 }
@@ -440,7 +441,7 @@ word-wrap: break-word
   width: 40px;
   text-align: center;
   text-decoration: none;
-  display: flex;
+  display: var(--css-display-flex);
   justify-content: center;
   align-items: center;
   font-size: 16px;
@@ -458,7 +459,7 @@ word-wrap: break-word
 }
 
 .circles-container {
-  display: flex;
+  display: var(--css-display-flex);
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -491,7 +492,7 @@ word-wrap: break-word
   padding: 20px;
   border-top: var(--searchfield-container-bordertop-color);
   box-shadow: var(--searchfield-container-shadow);
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   justify-content: center;
 }
@@ -510,7 +511,7 @@ word-wrap: break-word
   border-top: var(--searchfield-input-bordertop-color);
   margin-bottom: 6%;
   margin-right: 5%; /* Adjust this margin as needed */
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
 }
 
@@ -531,14 +532,14 @@ word-wrap: break-word
   border-radius: 10px;
   gap: 16px;
   background: var(--searchfield-icon-color);
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   justify-content: center;
   order: 2; /* Change order to 2 */
   margin-bottom: 6%;
 }
 .searchbutton-container {
-  display: flex;
+  display: var(--css-display-flex);
   width: 619px;
   height: 37px;
   gap: 16px;
@@ -555,7 +556,7 @@ word-wrap: break-word
   background: var(--searchbutton-background-color);
   border: var(--searchbutton-border-color);
   box-shadow: var(--searchbutton-box-shadow);
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   justify-content: center;
 }
@@ -576,21 +577,21 @@ word-wrap: break-word
   cursor: pointer;
 }
 .service {
-  width: 100%;
+  width: var(--css-width-full);
   top: 570px;
 }
 
 .services-container {
-  width: 100%;
+  width: var(--css-width-full);
   height: auto;
   top: 630px;
   gap: 61px;
-  display: flex;
+  display: var(--css-display-flex);
   justify-content: center; /* Center the content horizontally */
 }
 
 .service-box {
-  display: flex;
+  display: var(--css-display-flex);
   flex-direction: column; /* Stack items vertically */
   align-items: flex-start; /* Align items to the start (left) */
   margin-top: 80px;
@@ -599,7 +600,7 @@ word-wrap: break-word
 }
 
 .service-title {
-  display: flex;
+  display: var(--css-display-flex);
   flex-direction: column; /* Stack items vertically */
   align-items: flex-start; /* Align items to the start (left) */
   margin-right: 70%;
@@ -616,13 +617,13 @@ word-wrap: break-word
 }
 
 .sub-text {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   gap: 10px;
 }
 
 .service-subtext {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   width: 98px;
   height: 22px;
@@ -642,7 +643,7 @@ word-wrap: break-word
   display: block;
 }
 .service-row {
-  display: flex;
+  display: var(--css-display-flex);
 }
 .service-item {
   width: 371px;
@@ -739,7 +740,7 @@ word-wrap: break-word
 }
 .whyus-slider {
   position: relative;
-  display: flex;
+  display: var(--css-display-flex);
   align-items: flex-start; /* Align items to the top */
   gap: 20px;
   width: 100%;
@@ -750,7 +751,7 @@ word-wrap: break-word
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   width: 100%;
   justify-content: flex-end; /* Align to the right edge */
@@ -768,7 +769,7 @@ word-wrap: break-word
   width: 48px;
   text-align: center;
   text-decoration: none;
-  display: flex;
+  display: var(--css-display-flex);
   justify-content: center;
   align-items: center;
   font-size: 16px;
@@ -797,30 +798,30 @@ word-wrap: break-word
   margin-right: 50%;
 }
 .whyus-title {
-  display: flex;
+  display: var(--css-display-flex);
   flex-direction: column;
   align-items: flex-start;
   margin-right: 20px;
 }
 
 .whyus-subtext-container {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   gap: 10px;
 }
 .whyus-about {
-  display: flex;
+  display: var(--css-display-flex);
   flex-direction: column;
 }
 
 .whyus-checkabout {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   gap: 10px; /* Adjust the gap between image and text */
 }
 
 .whyus-subtext {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   width: 98px;
   height: 22px;
@@ -850,7 +851,7 @@ word-wrap: break-word
   text-align: left;
 }
 .whyus-text {
-  display: flex;
+  display: var(--css-display-flex);
   flex-direction: column;
 }
 .whyus-text-container {
@@ -873,7 +874,7 @@ word-wrap: break-word
   color: var(--whyus-about-text);
 }
 .whyus-badges-container {
-  display: flex;
+  display: var(--css-display-flex);
   justify-content: space-between; /* Adjust as needed */
   align-items: center; /* Center vertically */
   width: 541px;
@@ -882,12 +883,12 @@ word-wrap: break-word
 }
 
 .whyus-badges {
-  display: flex;
+  display: var(--css-display-flex);
   gap: 21px;
 }
 
 .badge {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   width: 200px;
   height: 60px;
@@ -899,7 +900,7 @@ word-wrap: break-word
 }
 
 .whyus-content {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   gap: 19px;
 }
@@ -919,7 +920,7 @@ word-wrap: break-word
   color: var(--whyus-badgetext-color);
 }
 .badge-secondary {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   width: 200px;
   height: 60px;
@@ -932,7 +933,7 @@ word-wrap: break-word
 }
 
 .whyus-secondary {
-  display: flex;
+  display: var(--css-display-flex);
   align-items: center;
   gap: 19px;
 }
